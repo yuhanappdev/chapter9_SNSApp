@@ -73,7 +73,7 @@ const Login = ({navigation}) => {
                     placeholder="비밀번호"
                     secureTextEntry={true}
                 />
-                <PasswordReset onPress={() => navigation.navigatie('PasswordReset')} >
+                <PasswordReset onPress={() => navigation.navigate('PasswordReset')} >
                     비밀번호 재설정
                 </PasswordReset>
                 <Button
